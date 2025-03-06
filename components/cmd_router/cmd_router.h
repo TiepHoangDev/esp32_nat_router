@@ -9,11 +9,12 @@
 #pragma once
 
 #ifdef __cplusplus
-extern "C" {
+extern "C"
+{
 #endif
 
-// Register router functions
-void register_router(void);
+   // Register router functions
+   void register_router(void);
 
 #ifdef __cplusplus
 }
